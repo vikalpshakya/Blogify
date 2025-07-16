@@ -58,13 +58,13 @@ http://localhost:5000
 PROJEXT STURCTURE :-
 
 Blogify/
-├── models/          # Mongoose schemas for User and Post
-├── routes/          # Auth and blog routes
-├── views/           # EJS frontend templates
-├── public/          # Static files (CSS, JS, images)
-├── .env             # Environment variables (ignored in git)
-├── app.js           # Entry point for the app
-├── package.json     # Project metadata and dependencies
-└── README.md        # Project documentation
+├── app.js              # Entry point (main server file)
+├── models/             # MongoDB schemas (User, Post)
+├── routes/             # Route handlers (auth, blog)
+├── views/              # EJS templates for frontend
+├── public/             # Static files (CSS, JS)
+├── .env                # Secrets (not committed)
+├── package.json        # NPM metadata
+
 
 
